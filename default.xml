@@ -1,0 +1,50 @@
+<manifest>
+	<remote name="github" fetch="https://github.com/" />
+	<remote name="gitlab" fetch="ssh://git@gitlab.eng.vmware.com/" />
+	<remote name="gitlab-public" fetch="ssh://git@gitlab.com/" />
+
+	<default revision="master" />
+
+	<project path="skyway-automation" remote="gitlab-public"
+		name="vmworld2018/skyway-automation.git" />
+	<project path="skyway-automation/roles/azure-iot" remote="gitlab-public"
+		name="vmworld2018/ansible-role-azure-iot.git" />
+	<project path="skyway-automation/roles/azure-edge" remote="gitlab-public"
+		name="vmworld2018/ansible-role-azure-edge.git" />
+	<project path="skyway-automation/roles/skyway-edge-vm"
+                remote="gitlab-public"
+		name="vmworld2018/ansible-role-skyway-edge-vm.git" />
+	<project path="skyway-deploy" remote="gitlab-public"
+		name="vmworld2018/vmware-concourse-deploy.git" />
+	<project path="skyway-config-ui" remote="gitlab-public"
+		name="vmworld2018/skyway-config-ui.git" />
+	<project path="skyway-configs" remote="gitlab-public"
+		name="vmworld2018/skyway-configs.git">
+		<linkfile src="skyway-deploy-params.yml.dmz-azure"
+			dest="pipelines/skyway-deploy-params.yml"/>
+		<linkfile src="opt-skyway-deploy-params.yml"
+			dest="pipelines/opt-skyway-deploy-params.yml"/>
+	</project>
+	<project path="skyway-concourse-deploy" remote="gitlab-public"
+                revision="dmz-azure"
+		name="vmworld2018/skyway-concourse-deploy.git">
+		<linkfile src="solution-name"
+			dest="skyway-deploy/bootstrap/solution-name"/>
+		<linkfile src="bootstrap/extra_host_prep.sh"
+			dest="skyway-deploy/bootstrap/extra_host_prep.sh"/>
+		<copyfile src="bootstrap/provision/additional_roles.yml"
+			dest="skyway-deploy/bootstrap/provision/additional_roles.yml"/>
+		<copyfile src="downloads/download.sh"
+			dest="skyway-deploy/downloads/download.sh"/>
+		<copyfile src="bootstrap/provision/utilities.yml"
+			dest="skyway-deploy/bootstrap/provision/utilities.yml"/>
+		<copyfile src="bootstrap/provision/group_vars/all/vars.yml"
+			dest="skyway-deploy/bootstrap/provision/group_vars/all/vars.yml"/>
+		<copyfile src="bootstrap/provision/refly/group_vars/all/vars.yml"
+			dest="skyway-deploy/bootstrap/provision/refly/group_vars/all/vars.yml"/>
+		<linkfile src="pipelines/skyway-deploy.yml.j2"
+			dest="pipelines/skyway-deploy.yml.j2"/>
+		<linkfile src="pipelines/opt-skyway-deploy.yml.j2"
+			dest="pipelines/opt-skyway-deploy.yml.j2"/>
+	</project>
+</manifest>
