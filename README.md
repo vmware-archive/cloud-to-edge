@@ -12,11 +12,11 @@ The current Git repositories in this project are as follows:
 | ------------- | ------------- | ---------------- |
 | [Azure Edge](https://gitlab.com/vmworld2018/ansible-role-azure-edge) | [![Build Status](https://gitlab.com/vmworld2018/ansible-role-azure-edge/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/ansible-role-azure-edge/commits/master) | Azure Edge automated install |
 | [Azure IoT](https://gitlab.com/vmworld2018/ansible-role-azure-iot) | [![Build Status](https://gitlab.com/vmworld2018/ansible-role-azure-iot/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/ansible-role-azure-iot/commits/master) | Azure IoT API automation |
-| [Skyway Edge VM](https://gitlab.com/vmworld2018/ansible-role-skyway-edge-vm) | [![Build Status](https://gitlab.com/vmworld2018/ansible-role-skyway-edge-vm/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/ansible-role-skyway-edge-vm/commits/master) | Create Skyway Edge VMs |
+| [Cloud-to-Edge VM](https://gitlab.com/vmworld2018/ansible-role-cloud-to-edge-vm) | [![Build Status](https://gitlab.com/vmworld2018/ansible-role-cloud-to-edge-vm/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/ansible-role-cloud-to-edge-vm/commits/master) | Create Cloud-to-Edge VMs |
 | [Ansible Greengrass](https://github.com/vmware/ansible-aws-greengrass) | [![Build Status](https://travis-ci.org/vmware/ansible-aws-greengrass.svg?branch=master)](https://travis-ci.org/vmware/ansible-aws-greengrass) | AWS Greengrass automation |
-| [Skyway Automation](https://gitlab.com/vmworld2018/skyway-automation) | [![Build Status](https://gitlab.com/vmworld2018/skyway-automation/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/skyway-automation/commits/master) | Wrapper project for all automation |
+| [Cloud-to-Edge Automation](https://gitlab.com/vmworld2018/cloud-to-edge-automation) | [![Build Status](https://gitlab.com/vmworld2018/cloud-to-edge-automation/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/cloud-to-edge-automation/commits/master) | Wrapper project for all automation |
 | [VMware Concourse Deploy](https://gitlab.com/vmworld2018/vmware-concourse-deploy) | [![Build Status](https://gitlab.com/vmworld2018/vmware-concourse-deploy/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/vmware-concourse-deploy/commits/master) | VMware Concourse Builder |
-| [Skyway Concourse Deploy](https://gitlab.com/vmworld2018/skyway-concourse-deploy) | [![Build Status](https://gitlab.com/vmworld2018/skyway-concourse-deploy/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/skyway-concourse-deploy/commits/master) | Skyway specific Concourse pipelines |
+| [Cloud-to-Edge Concourse Deploy](https://gitlab.com/vmworld2018/cloud-to-edge-concourse-deploy) | [![Build Status](https://gitlab.com/vmworld2018/cloud-to-edge-concourse-deploy/badges/master/pipeline.svg)](https://gitlab.com/vmworld2018/cloud-to-edge-concourse-deploy/commits/master) | Cloud-to-Edge specific Concourse pipelines |
 
 ## Try it out
 
@@ -56,7 +56,7 @@ you'd like to place all source relevant to this demo and execute -
 `repo sync`
 
 After the sync completes, navigate to the newly created
-`skyway-deploy/bootstrap` directory and follow the instructions in that README.
+`c2e-deploy/bootstrap` directory and follow the instructions in that README.
 
 ## Documentation
 
