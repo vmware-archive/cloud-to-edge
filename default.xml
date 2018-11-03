@@ -9,9 +9,9 @@
 	<project path="cloud-to-edge-automation" remote="github"
 		name="vmware/cloud-to-edge-automation.git" />
 	<project path="cloud-to-edge-automation/roles/azure-iot" remote="github"
-		name="vmware/ansible-role-azure-iot.git" />
+		name="vmware/ansible-role-microsoft-azure-iot.git" />
 	<project path="cloud-to-edge-automation/roles/azure-edge" remote="github"
-		name="vmware/ansible-role-azure-edge.git" />
+		name="vmware/ansible-role-microsoft-azure-edge.git" />
 	<project path="cloud-to-edge-automation/roles/cloud-to-edge-vm"
                 remote="github"
 		name="vmware/ansible-role-cloud-to-edge-vm.git" />
