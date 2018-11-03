@@ -6,25 +6,25 @@
 
 	<default revision="master" />
 
-	<project path="cloud-to-edge-automation" remote="gitlab-public"
+	<project path="cloud-to-edge-automation" remote="github"
 		name="vmware/cloud-to-edge-automation.git" />
-	<project path="cloud-to-edge-automation/roles/azure-iot" remote="gitlab-public"
+	<project path="cloud-to-edge-automation/roles/azure-iot" remote="github"
 		name="vmware/ansible-role-azure-iot.git" />
-	<project path="cloud-to-edge-automation/roles/azure-edge" remote="gitlab-public"
+	<project path="cloud-to-edge-automation/roles/azure-edge" remote="github"
 		name="vmware/ansible-role-azure-edge.git" />
 	<project path="cloud-to-edge-automation/roles/cloud-to-edge-vm"
-                remote="gitlab-public"
+                remote="github"
 		name="vmware/ansible-role-cloud-to-edge-vm.git" />
-	<project path="c2e-deploy" remote="gitlab-public"
+	<project path="c2e-deploy" remote="github"
 		name="vmware/vmware-concourse-deploy.git" />
-	<project path="cloud-to-edge-config-ui" remote="gitlab-public"
+	<project path="cloud-to-edge-config-ui" remote="github"
 		name="vmware/cloud-to-edge-config-ui.git" />
-	<!--project path="cloud-to-edge-configs" remote="gitlab-public"
+	<!--project path="cloud-to-edge-configs" remote="github"
 		name="vmware/cloud-to-edge-configs.git">
 		<linkfile src="c2e-deploy-params.yml.dmz-azure"
 			dest="pipelines/c2e-deploy-params.yml"/>
 	</project -->
-	<project path="cloud-to-edge-concourse-deploy" remote="gitlab-public"
+	<project path="cloud-to-edge-concourse-deploy" remote="github"
                 revision="dmz-azure"
 		name="vmware/cloud-to-edge-concourse-deploy.git">
 		<linkfile src="solution-name"
