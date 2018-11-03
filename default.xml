@@ -1,5 +1,6 @@
 <manifest>
-	<remote name="github" fetch="https://github.com/" />
+	<remote name="github" fetch="ssh://git@github.com/" />
+	<remote name="github-nossh" fetch="https://github.com/" />
 	<remote name="gitlab" fetch="ssh://git@gitlab.eng.vmware.com/" />
 	<remote name="gitlab-public" fetch="ssh://git@gitlab.com/" />
 
