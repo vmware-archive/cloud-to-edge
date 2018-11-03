@@ -25,7 +25,6 @@
 			dest="pipelines/c2e-deploy-params.yml"/>
 	</project -->
 	<project path="cloud-to-edge-concourse-deploy" remote="github"
-                revision="dmz-azure"
 		name="vmware/cloud-to-edge-concourse-deploy.git">
 		<linkfile src="solution-name"
 			dest="c2e-deploy/bootstrap/solution-name"/>
