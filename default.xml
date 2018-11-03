@@ -16,7 +16,7 @@
                 remote="github"
 		name="vmware/ansible-role-cloud-to-edge-vm.git" />
 	<project path="c2e-deploy" remote="github"
-		name="vmware/vmware-concourse-deploy.git" />
+		name="vmware/vmware-pks-deploy.git" />
 	<project path="cloud-to-edge-config-ui" remote="github"
 		name="vmware/cloud-to-edge-config-ui.git" />
 	<!--project path="cloud-to-edge-configs" remote="github"
