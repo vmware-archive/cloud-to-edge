@@ -6,28 +6,26 @@
 	<default revision="master" />
 
 	<project path="cloud-to-edge-automation" remote="gitlab-public"
-		name="vmworld2018/cloud-to-edge-automation.git" />
+		name="vmware/cloud-to-edge-automation.git" />
 	<project path="cloud-to-edge-automation/roles/azure-iot" remote="gitlab-public"
-		name="vmworld2018/ansible-role-azure-iot.git" />
+		name="vmware/ansible-role-azure-iot.git" />
 	<project path="cloud-to-edge-automation/roles/azure-edge" remote="gitlab-public"
-		name="vmworld2018/ansible-role-azure-edge.git" />
+		name="vmware/ansible-role-azure-edge.git" />
 	<project path="cloud-to-edge-automation/roles/cloud-to-edge-vm"
                 remote="gitlab-public"
-		name="vmworld2018/ansible-role-cloud-to-edge-vm.git" />
+		name="vmware/ansible-role-cloud-to-edge-vm.git" />
 	<project path="c2e-deploy" remote="gitlab-public"
-		name="vmworld2018/vmware-concourse-deploy.git" />
+		name="vmware/vmware-concourse-deploy.git" />
 	<project path="cloud-to-edge-config-ui" remote="gitlab-public"
-		name="vmworld2018/cloud-to-edge-config-ui.git" />
-	<project path="cloud-to-edge-configs" remote="gitlab-public"
-		name="vmworld2018/cloud-to-edge-configs.git">
+		name="vmware/cloud-to-edge-config-ui.git" />
+	<!--project path="cloud-to-edge-configs" remote="gitlab-public"
+		name="vmware/cloud-to-edge-configs.git">
 		<linkfile src="c2e-deploy-params.yml.dmz-azure"
 			dest="pipelines/c2e-deploy-params.yml"/>
-		<linkfile src="opt-c2e-deploy-params.yml"
-			dest="pipelines/opt-c2e-deploy-params.yml"/>
-	</project>
+	</project -->
 	<project path="cloud-to-edge-concourse-deploy" remote="gitlab-public"
                 revision="dmz-azure"
-		name="vmworld2018/cloud-to-edge-concourse-deploy.git">
+		name="vmware/cloud-to-edge-concourse-deploy.git">
 		<linkfile src="solution-name"
 			dest="c2e-deploy/bootstrap/solution-name"/>
 		<linkfile src="bootstrap/extra_host_prep.sh"
@@ -44,7 +42,5 @@
 			dest="c2e-deploy/bootstrap/provision/refly/group_vars/all/vars.yml"/>
 		<linkfile src="pipelines/c2e-deploy.yml.j2"
 			dest="pipelines/c2e-deploy.yml.j2"/>
-		<linkfile src="pipelines/opt-c2e-deploy.yml.j2"
-			dest="pipelines/opt-c2e-deploy.yml.j2"/>
 	</project>
 </manifest>
