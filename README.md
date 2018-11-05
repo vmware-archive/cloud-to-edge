@@ -10,7 +10,7 @@ The current Git repositories in this project are as follows:
 
 | Project       | Status        | Usage            |
 | ------------- | ------------- | ---------------- |
-| [Azure Edge](https://github.com/vmware/ansible-role-microsoft-role-azure-edge) | [![Build Status](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge) | Azure Edge automated install |
+| [Azure Edge](https://github.com/vmware/ansible-role-microsoft-azure-edge) | [![Build Status](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge) | Azure Edge automated install |
 | [Azure IoT](https://github.com/vmware/ansible-role-microsoft-azure-iot) | [![Build Status](https://travis-ci.org/vmware/ansible-role-microsoft-azure-iot.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-microsoft-azure-iot) | Azure IoT API automation |
 | [Cloud-to-Edge VM](https://github.com/vmware/ansible-role-cloud-to-edge-vm) | [![Build Status](https://travis-ci.org/vmware/ansible-role-cloud-to-edge-vm.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-cloud-to-edge-vm) | Create Cloud-to-Edge VMs |
 | [Ansible Greengrass](https://github.com/vmware/ansible-aws-greengrass) | [![Build Status](https://travis-ci.org/vmware/ansible-aws-greengrass.svg?branch=master)](https://travis-ci.org/vmware/ansible-aws-greengrass) | AWS Greengrass automation |
