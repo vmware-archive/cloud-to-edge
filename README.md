@@ -10,12 +10,12 @@ The current Git repositories in this project are as follows:
 
 | Project       | Status        | Usage            |
 | ------------- | ------------- | ---------------- |
-| [Azure Edge](https://github.com/vmware/ansible-microsoft-role-azure-edge) | [![Build Status](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge) | Azure Edge automated install |
+| [Azure Edge](https://github.com/vmware/ansible-role-microsoft-role-azure-edge) | [![Build Status](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-microsoft-azure-edge) | Azure Edge automated install |
 | [Azure IoT](https://github.com/vmware/ansible-role-microsoft-azure-iot) | [![Build Status](https://travis-ci.org/vmware/ansible-role-microsoft-azure-iot.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-microsoft-azure-iot) | Azure IoT API automation |
 | [Cloud-to-Edge VM](https://github.com/vmware/ansible-role-cloud-to-edge-vm) | [![Build Status](https://travis-ci.org/vmware/ansible-role-cloud-to-edge-vm.svg?branch=master)](https://travis-ci.org/vmware/ansible-role-cloud-to-edge-vm) | Create Cloud-to-Edge VMs |
 | [Ansible Greengrass](https://github.com/vmware/ansible-aws-greengrass) | [![Build Status](https://travis-ci.org/vmware/ansible-aws-greengrass.svg?branch=master)](https://travis-ci.org/vmware/ansible-aws-greengrass) | AWS Greengrass automation |
 | [Cloud-to-Edge Automation](https://github.com/vmware/cloud-to-edge-automation) | [![Build Status](https://travis-ci.org/vmware/cloud-to-edge-automation.svg?branch=master)](https://travis-ci.org/vmware/cloud-to-edge-automation) | Wrapper project for all automation |
-| [VMware PKS Concourse Deploy](https://github.com/vmware/vmware-pks-concourse-deploy) | [![Build Status](https://travis-ci.org/vmware/vmware-pks-concourse-deploy.svg?branch=master)](https://travis-ci.org/vmware/vmware-pks-concourse-deploy) | VMware Concourse Builder, adapted for C2E deploy instead |
+| [VMware PKS Concourse Deploy](https://github.com/vmware/vmware-pks-deploy) | [![Build Status](https://travis-ci.org/vmware/vmware-pks-deploy.svg?branch=master)](https://travis-ci.org/vmware/vmware-pks-deploy) | VMware Concourse Builder, adapted for C2E deploy instead |
 | [Cloud-to-Edge Concourse Deploy](https://github.com/vmware/cloud-to-edge-concourse-deploy) | [![Build Status](https://travis-ci.org/vmware/cloud-to-edge-concourse-deploy.svg?branch=master)](https://travis-ci.org/vmware/cloud-to-edge-concourse-deploy) | Cloud-to-Edge specific Concourse pipelines |
 
 ## Try it out
