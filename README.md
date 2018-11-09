@@ -1,12 +1,12 @@
 
-# cloud-to-edge
+# Cloud-to-Edge Builder
 
 This is a meta repository to link all repositories required for the
 _Cloud-to-Edge_ project.
 
 ## Overview
 
-Cloud-to-Edge is a project focused on simplifying the deployment of public cloud Edge frameworks on VMware's vSphere platform.  The software allows end to end automation of the installation and configuration of Edge frameworks including full cloud-side configuratino and complete deployment of Edge VMs, Edge software, and application configuration.  Cloud-to-Edge builder allows deployments to multiple sites and vCenter instances and accomodates both Amazon Greengrass and Azure IoT Edge.
+Cloud-to-Edge Builder is a project focused on simplifying the deployment of public cloud Edge frameworks on VMware's vSphere platform.  The software allows end to end automation of the installation and configuration of Edge frameworks including full cloud-side configuratino and complete deployment of Edge VMs, Edge software, and application configuration.  Cloud-to-Edge Builder allows deployments to multiple sites and vCenter instances and accomodates both Amazon Greengrass and Azure IoT Edge.
 
 The current Git repositories in this project are as follows:
 
