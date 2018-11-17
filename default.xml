@@ -16,13 +16,16 @@
 		name="vmware/vmware-pks-deploy.git" />
 	<project path="cloud-to-edge-config-ui" remote="github"
 		name="vmware/cloud-to-edge-config-ui.git" />
-	<!--project path="cloud-to-edge-configs" remote="github"
+	<!-- As a an example, you might keep a checked-in config in another repo. -->
+	<!--project path="cloud-to-edge-configs" remote="my-remote"
 		name="vmware/cloud-to-edge-configs.git">
-		<linkfile src="c2e-deploy-params.yml.dmz-azure"
+		<linkfile src="c2e-deploy-params.yml"
 			dest="pipelines/c2e-deploy-params.yml"/>
 	</project -->
 	<project path="cloud-to-edge-concourse-deploy" remote="github"
 		name="vmware/cloud-to-edge-concourse-deploy.git">
+		<copyfile src="README.md"
+			dest="c2e-deploy/README.md"/>
 		<linkfile src="solution-name"
 			dest="c2e-deploy/bootstrap/solution-name"/>
 		<linkfile src="bootstrap/extra_host_prep.sh"
