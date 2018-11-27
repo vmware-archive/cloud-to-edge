@@ -26,7 +26,7 @@
 		name="vmware/cloud-to-edge-concourse-deploy.git">
 		<copyfile src="README.md"
 			dest="c2e-deploy/README.md"/>
-		<linkfile src="solution-name"
+		<copyfile src="solution-name"
 			dest="c2e-deploy/bootstrap/solution-name"/>
 		<linkfile src="bootstrap/extra_host_prep.sh"
 			dest="c2e-deploy/bootstrap/extra_host_prep.sh"/>
