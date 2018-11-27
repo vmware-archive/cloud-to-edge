@@ -40,7 +40,9 @@
 			dest="c2e-deploy/bootstrap/provision/group_vars/all/vars.yml"/>
 		<copyfile src="bootstrap/provision/refly/group_vars/all/vars.yml"
 			dest="c2e-deploy/bootstrap/provision/refly/group_vars/all/vars.yml"/>
-		<linkfile src="pipelines/c2e-deploy.yml.j2"
+		<copyfile src="pipelines/c2e-deploy.yml.j2"
 			dest="pipelines/c2e-deploy.yml.j2"/>
+		<copyfile src="pipelines/c2e-deploy-params.yml.sample"
+			dest="pipelines/c2e-deploy-params.yml.sample"/>
 	</project>
 </manifest>
